@@ -1,0 +1,150 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/* Kalam Font */
+@font-face {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kalam Regular'), local('Kalam-Regular'), url('fonts/Kalam-Regular.ttf') format('truetype');
+}
+
+/* Open Sans Font */
+@font-face {
+    font-family: 'Open Sans';
+    font-style:  normal;
+    font-weight: 400, 600, 700;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), local('Open Sans Bold'), local('OpenSans-Bold'), url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* Playfair Display Font */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400, 700;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+#main-menu li a {
+    font-family: 'Open Sans';
+    font-weight: 400 !important;
+    color:#333333;
+}
+
+#main-nav li.current-menu-item>a{
+    color:#333333 !important;
+}
+
+#main-nav li.current-menu-item>a:hover{
+    color:#ca9b52 !important;
+}
+
+#main-menu a{
+    font-weight: 800 !important;
+}
+
+p{
+	color:#595959 !important;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.slider-content p{
+	color:#ffffff !important;
+}
+
+.post-date{
+    color:#595959 !important;
+    font-size: large !important;
+}
+
+.post-categories a {
+    color:#9d4c64 !important;
+    font-size: 14px !important;
+}
+
+.read-more a {
+    color:#9d4c64 !important;
+}
+
+li.product .button{
+    color:#9d4c64 !important;
+}
+
+.rc-anchor-container{
+    display: none !important;
+}
+
+.wp-block-heading{
+    font-family: 'Open Sans';
+}
+
+.rpwwt-post-categories{
+    color:#9d4c64 !important;
+}
+
+
